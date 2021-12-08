@@ -34,7 +34,7 @@ public class History extends JFrame {
 		});
 	}
 	public History() {
-		
+		setResizable(false);
 		Db db=new Db();
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

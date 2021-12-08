@@ -44,6 +44,7 @@ public class NumberSystem extends JFrame {
 	 * Create the frame.
 	 */
 	public NumberSystem() {
+		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 623, 685);
 		contentPane = new JPanel();
@@ -470,6 +471,7 @@ public class NumberSystem extends JFrame {
 
 				} else {
 					txtLefttext.setText("");
+					txtRightText.setText("");
 				}
 			}
 		});
